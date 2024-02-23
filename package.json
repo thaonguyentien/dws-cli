@@ -1,0 +1,59 @@
+{
+  "name": "dws-cli",
+  "version": "1.2.1",
+  "description": "Decentralized web services command interface",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "byte-size": "^6.2.0",
+    "chalk": "^2.4.2",
+    "cli-progress": "^3.7.0",
+    "cli-table3": "^0.6.0",
+    "colors": "latest",
+    "common-tags": "^1.8.0",
+    "figlet": "^1.3.0",
+    "husky": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "ipfs-api": "^26.1.2",
+    "ipfs-http-client": "^43.0.0",
+    "neat-frame": "^1.0.2",
+    "open": "^7.0.4",
+    "opn": "^6.0.0",
+    "ora": "^4.0.3",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "trammel": "^3.0.1",
+    "update-notifier": "^4.1.0",
+    "util": "^0.12.2",
+    "website-scraper": "^4.2.1",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.3",
+    "@commitlint/config-conventional": "^8.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thaonguyentien/dws-cli"
+  },
+  "keywords": [
+    "dws",
+    "hosting",
+    "datochain",
+    "dws-cli"
+  ],
+  "author": "nguyentienthao",
+  "license": "ISC",
+  "bin": {
+    "dws": "./index.js",
+    "dws-cli": "./index.js"
+  }
+}
