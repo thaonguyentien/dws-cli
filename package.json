@@ -1,6 +1,6 @@
 {
   "name": "dws-cli",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "Decentralized web services command interface",
   "main": "index.js",
   "dependencies": {
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thaonguyentien/dws-cli"
+    "url": "https://github.com/thaonguyentien/dws-cli.git"
   },
   "keywords": [
     "dws",
