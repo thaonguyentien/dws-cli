@@ -1,6 +1,6 @@
 {
   "name": "dws-cli",
-  "version": "1.2.3",
+  "version": "1.2.7",
   "description": "Decentralized web services command interface",
   "main": "index.js",
   "dependencies": {
@@ -40,6 +40,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/thaonguyentien/dws-cli.git"
@@ -50,8 +51,6 @@
     "datochain",
     "dws-cli"
   ],
-  "author": "nguyentienthao",
-  "license": "ISC",
   "bin": {
     "dws": "./index.js",
     "dws-cli": "./index.js"
